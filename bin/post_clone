@@ -1,4 +1,6 @@
 #!/bin/bash
+git init
+
 npm i
 
 op inject -i secrets.env -o .env
